@@ -1,0 +1,884 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  color: 	white;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+}
+
+/* First Division------------------------------ */
+
+.div1 {
+  background-color: #1c2431;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Logo and Navbar Container */
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+.nav-bar-button {
+  background-color: #1c2431;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 20px 0;
+  padding: 2px 5px;
+}
+
+.nav-bar-button:hover {
+  background-color:  #fff8;
+
+}
+/* Container 1 */
+
+.container1 {
+  text-align: center;
+}
+
+.illustration {
+  max-width: 40%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header {
+  font-size: 2.1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-bottom: 30px;
+  padding: 0 30%;
+
+}
+
+.sentence {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.8rem;
+  padding: 0 34%;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  width: 200px;
+  height: 40px;
+  border-radius: 100px;
+  margin-bottom: 200px;
+}
+
+
+/* Second Division------------------- */
+
+.div2 {
+  background-color: #181f2a;
+}
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 10%;
+  margin-bottom: 100px;
+}
+
+.access, .security, .real-time, .store {
+  width: 50%;
+  padding: 50px 100px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.security-icon {
+  max-width: 60px;
+  height: auto;
+}
+
+.features h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+/* Second Header */
+.second-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.productive-image {
+  width: 55%;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+
+.illustration2 {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  left: 100px;
+  bottom: 10px;
+}
+
+.productive-description {
+  margin-left: 10%;
+  position: relative;
+  top: 70px;
+
+
+}
+.second-header h1 {
+  width: 60%;
+  font-size: 2.1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 3.2rem;
+
+}
+
+.second-header p {
+  width: 80%;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+/* Testimonials */
+.testimonials {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding-left: 3%;
+  padding-right: 4%;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+  background-color:  #202a3c;
+  border-radius: 5px;
+  display:flex;
+  flex-flow: column;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5rem;
+  margin-right: 3%;
+  max-width: 350px;
+  padding: 40px 20px 20px;
+  border-radius: 5px;
+  z-index: 1;
+
+}
+.profile-container {
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+}
+
+
+.quote {
+  width: 60px;
+  position: relative;
+  top: -40px;
+  left: 50px;
+  z-index: 0;
+
+}
+.image-1, .image-2, .image-3 {
+  border: none;
+  border-radius: 100px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+
+.name-container p, h1 {
+  font-size: 10px;
+}
+
+.name-container h1 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Call to action section */
+
+
+.call-to-action {
+  background-color:	#1c2431;
+  border-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  top: 90px;
+  left: 19%;
+  text-align: center;
+  width: 65%;
+  height: auto;
+  z-index: 1;
+}
+
+.description-cta {
+  margin-top: 50px;
+}
+
+.button {
+  text-align: center;
+}
+.btn-cta {
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  border: none;
+  border-radius: 50px;
+  color: 	white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 10%;
+  width: 180px;
+  height: 45px;
+
+
+}
+
+.btn-cta:hover {
+  background-color: #00334e;
+  color: white;
+  cursor: pointer;
+
+}
+
+.description-cta h1 {
+  font-size: 1.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.description-cta p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding: 0 13%;
+}
+
+.button-form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.email-container {
+  background-color: white;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 55%;
+  height: 45px;
+}
+
+.sample-email {
+  color: #d8d3cd  ;
+  text-align: left;
+  padding: 15px 20px;
+}
+
+/* Third Divison------------------- */
+
+.div3 {
+  background-color: #0b1523;
+}
+
+.logo-container-bottom {
+  padding: 15% 6%;
+  padding-bottom: 3%;
+}
+
+.logo-bottom {
+  max-width: 50%;
+}
+.container3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 6%;
+  padding-right: 5%;
+
+}
+/* Info Container */
+.info {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.location, .contact, .email{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.location {
+  max-width: 30%;
+  margin-right: 7%;
+}
+
+.data {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7rem;
+}
+.contact {
+  margin-bottom: 10%;
+}
+.contact-email {
+  width: 30%;
+  margin-right: 7%;
+}
+
+.icon-container {
+  margin-right: 5%;
+  position: relative;
+  top: 5px;
+}
+
+/* Pages Container */
+
+.pages {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  width: 40%;
+}
+
+.about, .jobs, .press, .blog, .contact-us, .terms, .privacy {
+  margin-bottom: 20px;
+}
+
+.col1, .col2 {
+  margin-right: 50px;
+  width: 10%;
+}
+
+/* Icon Container */
+
+.icons {
+  width: 20%;
+}
+
+.fab {
+  color: white;
+  border-radius: 100px;
+  box-shadow: 0 0 2px white;
+  padding: 0.65rem 0.8rem;
+  margin-left: 5px;
+
+
+}
+.fab:hover {
+  background-color: #00334e;
+  cursor: pointer;
+}
+
+/* Footer Division */
+
+.div4 {
+  background-color: #0b1523;
+  text-align: center;
+  padding: 3%;
+}
+
+/* -------------------------------Media Queries------------------------- */
+
+
+@media (max-width: 1440px) {
+
+  .main-container {
+    width: 100%;
+  }
+
+}
+@media (max-width: 800px) {
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .div1 {
+    background-color: #1c2431;
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-size: contain;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+
+
+  }
+
+  /* Logo and Navbar Container */
+
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+  }
+
+  .logo {
+    max-width: 100px;
+    height: auto;
+  }
+  .nav-bar {
+    text-align: right;
+    width: 70%;
+}
+  .nav-bar-button {
+    background-color: #1c2431;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2% 1% 0;
+    padding: 2px 5px;
+  }
+
+  .nav-bar-button:hover {
+    background-color:  #fff8;
+
+  }
+  /* Container 1 */
+
+  .container1 {
+    text-align: center;
+  }
+
+  .illustration {
+    max-width: 75%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .for-mobile {
+    background-color: #181f2a;
+
+  }
+
+  .header {
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 0 5%;
+    margin-bottom: 10px;
+  }
+
+  .sentence {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.7rem;
+    padding: 0 12%;
+
+  }
+
+
+  .btn {
+    background-image: linear-gradient(to right, #65e2d9, #339ecc);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    width: 175px;
+    height: 30px;
+    border-radius: 100px;
+    margin-bottom: 20%;
+
+  }
+
+
+  /* Second Division------------------- */
+
+  .div2 {
+    background-color: #181f2a;
+  }
+
+
+  .features {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 0 10%;
+    margin-bottom: 50px;
+  }
+
+  .access, .security, .real-time, .store {
+    width: 100%;
+    padding: 5% 0;
+    padding-top: 0;
+    text-align: center;
+
+  }
+
+  .security-icon {
+    max-width: 40px;
+    height: auto;
+    position: relative;
+    right: 1%;
+  }
+
+
+  .access-icon, .realtime-icon, .file-icon {
+    max-width: 60px;
+    height: auto;
+  }
+  .features h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .features p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  /* Second Header */
+  .second-header {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+
+  .productive-image {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+  .illustration2 {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    left: 0;
+  }
+
+  .productive-description {
+    margin-left: auto;
+    margin-bottom: 75px;
+    padding: 2% 12%;
+    position: relative;
+    top: 20px;
+    text-align: left;
+
+
+  }
+  .second-header h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 3.2rem;
+
+  }
+
+  .second-header p {
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+  /* Testimonials */
+  .testimonials {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align:center;
+  }
+
+  .testimonial1, .testimonial2, .testimonial3 {
+    background-color:  #202a3c;
+    border-radius: 5px;
+    display:flex;
+    flex-flow: column;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    margin: 0 auto 30px;
+    max-width: 85%;
+    height: auto;
+    padding: 8% 8% 5% 5%;
+    text-align: left;
+    z-index: 1;
+
+  }
+  .profile-container {
+    display: flex;
+    flex-flow: row;
+    margin-top: 10px;
+  }
+
+  .quote-container {
+    text-align: left;
+    width: 50%;
+  }
+
+  .quote {
+    max-width: 30px;
+    position: relative;
+    top: 5px;
+    left: 15%;
+    z-index: 0;
+
+  }
+  .image-1, .image-2, .image-3 {
+    border: none;
+    border-radius: 100px;
+    width: 25px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+  }
+
+  .name-container p {
+    font-size: 8px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  .name-container h1 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  /* Call to action section */
+
+
+  .call-to-action {
+    background-color:	#1c2431;
+    border-style: none;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    top: 170px;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    z-index: 1;
+  }
+
+  .description-cta {
+    margin-top: 35px;
+  }
+
+  .button {
+    text-align: center;
+  }
+  .btn-cta {
+    background-image: linear-gradient(to right, #65e2d9, #339ecc);
+    border: none;
+    border-radius: 50px;
+    color: 	white;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto 8%;
+    width: 85%;
+    height: 45px;
+
+
+  }
+
+  .btn-cta:hover {
+    background-color: #00334e;
+    color: white;
+    cursor: pointer;
+
+  }
+
+  .description-cta h1 {
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .description-cta p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin-bottom: 35px;
+    padding: 0 8%;
+  }
+
+  .button-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .email-container {
+    background-color: white;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto 8%;
+    width: 85%;
+    height: 45px;
+  }
+
+  .sample-email {
+    color: #d8d3cd  ;
+    text-align: left;
+    padding: 15px 20px;
+  }
+
+  /* Third Divison------------------- */
+
+  .div3 {
+    background-color: #0b1523;
+    padding-top: 200px;
+  }
+
+  .logo-container-bottom {
+    padding: 15% 10%;
+    padding-bottom: 10%;
+  }
+
+  .logo-bottom {
+    max-width: 50%;
+  }
+
+  .container3 {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 8%;
+    padding-right: 5%;
+
+  }
+
+  .location, .contact {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+
+   .email{
+    margin-bottom: 50px;
+  }
+
+  .data {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6rem;
+  }
+
+  .contact-email {
+    width: 100%;
+    margin-right: 7%;
+  }
+
+  .icon-container {
+    margin-right: 5%;
+    position: relative;
+    top: 5px;
+  }
+
+  /* Pages Container */
+
+  .pages {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    width: 100%;
+  }
+
+  .about, .jobs, .press, .blog, .contact-us, .terms, .privacy {
+    margin-bottom: 10px;
+  }
+
+  .col1 {
+    margin-bottom: 35px;
+  }
+  .col1, .col2 {
+    width: 100%;
+  }
+
+  /* Icon Container */
+
+  .icons {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .fab {
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0 0 2px white;
+    padding: 0.65rem 0.8rem;
+    margin-left: 5px;
+
+
+  }
+  .fab:hover {
+    background-color: #00334e;
+    cursor: pointer;
+  }
+
+  /* Footer Division */
+
+  .div4 {
+    background-color: #0b1523;
+    text-align: center;
+    padding: 3%;
+  }
+
+
+
+
+}
